@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.calendar {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.calendar h2 {
+  text-align: center;
+  color: #333;
+}
+
+.calendar table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calendar table th {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.calendar table td {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.calendar table td:hover {
+  background-color: #eee;
+}
+
+.today {
+  background-color: #3333331f;
+}
+
+.changeMonthButtons {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333333da;
+}
+
+button:active {
+  background-color: #333333ad;
+}
